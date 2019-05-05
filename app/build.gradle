@@ -38,4 +38,17 @@ dependencies {
     implementation dependencies.androidTestImplementationEspresso
     implementation dependencies.recyclerView
 
+    // Material drawer
+    implementation dependencies.materialdrawer
+    implementation dependencies.annotation
+    implementation dependencies.androidMaterial
+
+    // Material drawer
+
+    implementation dependencies.crossfader
+    implementation dependencies.materialTypeface
+    implementation dependencies.iconicTypeface
+    implementation dependencies.fontawesomeTypeface
+    implementation dependencies.octiconsTypeface
+
 }

@@ -11,7 +11,18 @@ ext {
             testImplementation : 'junit:junit:4.12',
             androidTestImplementation : 'androidx.test:runner:1.2.0-alpha05',
             androidTestImplementationEspresso : 'androidx.test.espresso:espresso-core:3.2.0-alpha05',
+            recyclerView: "androidx.recyclerview:recyclerview:$reccyclerView",
 
-            recyclerView: "androidx.recyclerview:recyclerview:$reccyclerView"
+            //For material drawer
+            materialdrawer: 'co.zsmb:materialdrawer-kt:2.0.1',
+            annotation : "androidx.annotation:annotation:1.0.0",
+            androidMaterial: "com.google.android.material:material:1.0.0-rc01",
+
+            //FontAwesome
+            crossfader :"com.mikepenz:crossfader:1.6.0",
+            materialTypeface :'com.mikepenz:google-material-typeface:3.0.1.2.original@aar',
+            iconicTypeface :'com.mikepenz:material-design-iconic-typeface:2.2.0.4@aar',
+            fontawesomeTypeface :'com.mikepenz:fontawesome-typeface:5.0.6.0@aar',
+            octiconsTypeface :'com.mikepenz:octicons-typeface:3.2.0.4@aar'
     ]
 }
